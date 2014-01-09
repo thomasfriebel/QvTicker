@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="QvTicker" Description="A ticker line" Type="object">
+	<Dimension Label="Dimension" TargetName="Dimension" Value="" Initial=""/>
+	<Expression Label="Expression" TargetName="Value expression" Value="" Initial=""/>
+	<Expression Label="Change indication" TargetName="Value change indicator"  Value="" Initial=""/>
+	<Text Label="Text color" Type="color" Initial="" Expression=""/>
+	<Text Label="negative color" Type="color" Initial="" Expression="#FF0000"/>
+	<Text Label="neutral color" Type="color" Initial="" Expression=""/>
+	<Text Label="positive color" Type="color" Initial="" Expression="#00FF00"/>
+
+	<Text Label="Speed" Type="select" Select="10,30,50,80,120" SelectLabel="very slow,slow,normal,fast,very fast" Expression="50"/>
+
+	<Initiate Name="Caption.Show" Value="0" />
+	<Initiate Name="Layout.Font.Size" Value="18" />	
+	<Initiate Name="Layout.Normal.Width" Value="300" />	
+	<Initiate Name="Layout.Normal.Height" Value="24" />		
+	
+	<PropertiesPage Version="11" File="qvTicker.qvpp"/>
+</ExtensionObject>
