@@ -1,5 +1,5 @@
-QvDial
-======
+QvTicker
+========
 
 - a news ticker-like display of one dimension and one measure
 
